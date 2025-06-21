@@ -1,0 +1,24 @@
+1. To isolate the project, create a virtual environment:
+python3 -m venv myvenv
+
+2. Activate the virtual environment:
+source myvenv/bin/activate
+
+3. Install Selenium:
+pip install selenium  
+or  
+pip3 install selenium
+
+4. Install WebDriver Manager:
+pip install webdriver_manager
+
+5. Install Pytest:
+pip install pytest
+
+6. Install Requests:
+pip install requests
+
+7. Install allure-pytest for reporting:
+pip install allure-pytest  
+If the system doesn't recognize `allure`, install it according to the instructions:  
+https://allurereport.org/docs/install/
